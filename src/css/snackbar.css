@@ -1,0 +1,23 @@
+.form {
+  max-width: 360px;
+}
+.form label input,
+.form button {
+  width: 100%;
+}
+.form fieldset label input {
+  width: auto;
+}
+
+.form fieldset {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+  padding: 14px 48px 8px 48px;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}

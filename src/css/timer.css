@@ -1,0 +1,17 @@
+#datetime-picker {
+  margin-right: 8px;
+  margin-bottom: 32px;
+}
+.timer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.value {
+  font-size: 40px;
+}

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:wght@100..900&family=Roboto:wght@500&display=swap');
 /**
   |============================
   | include css partials with
@@ -11,6 +12,8 @@
 @import url('./animations.css');
 
 /* Sections style */
+@import url('./timer.css');
+@import url('./snackbar.css');
 @import url('./header.css');
 @import url('./vite-promo.css');
 @import url('./badges.css');
