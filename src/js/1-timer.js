@@ -74,7 +74,6 @@ function changeStatus(element, status) {
 function cheackForEnd(countTime, intervalID) {
   if (countTime < 0) {
     clearInterval(intervalID);
-    changeStatus(startBtn, true);
     changeStatus(datePicker, true);
   }
 }
